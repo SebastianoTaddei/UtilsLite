@@ -55,7 +55,6 @@ jobs:
         run: |
           mkdir -p release/UtilsLite
           cp -r lib release/UtilsLite/
-          cp -r lib3rd release/UtilsLite/
 
       - name: Zip binaries
         uses: vimtor/action-zip@v1.2
